@@ -1,4 +1,3 @@
-// Abstract class
 abstract class Car {
     String brand = "Toyota";
 
@@ -12,7 +11,6 @@ abstract class Car {
     abstract void transMission();
 }
 
-// Subclass Toyota Vios
 class ToyotaVios extends Car {
 
     @Override
@@ -37,10 +35,9 @@ class ToyotaVios extends Car {
     }
 }
 
-// Main class
 public class Main {
     public static void main(String[] args) {
-        Car myCar = new ToyotaVios();   // Abstraction + Polymorphism
+        Car myCar = new ToyotaVios(); 
 
         myCar.showBrand();
         myCar.startEngine();
