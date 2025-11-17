@@ -45,7 +45,6 @@ public class Main {
         myCar.gasCapacity();
         myCar.transMission();
 
-        // To access showModel(), cast to ToyotaVios
         ((ToyotaVios) myCar).showModel();
     }
 }
